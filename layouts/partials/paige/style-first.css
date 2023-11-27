@@ -36,7 +36,7 @@ body {
 }
 
 #paige-root {
-  background-color: #1f2125;
+  background-color: var(--bs-body-bg);
   width: 100%;
   max-width: 800px;
 }
