@@ -1,0 +1,18 @@
+baseURL = 'https://devcember.org/'
+languageCode = 'en-us'
+title = 'Devcember 2023'
+description = 'A yearly event for game developers to practice their artistic gamedev skills.'
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[params.paige]
+style = "#paige-content { width: 66ch; }"
+
+[paige]
+link = "https://youtu.be/dQw4w9WgXcQ"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
